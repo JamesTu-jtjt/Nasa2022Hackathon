@@ -43,7 +43,7 @@
    ### **Purpose**
    Demonstates image processing techniques, tools, and results with OpenCV and brought to life as a GUI by PyQt5. Each button on the GUI has a unique and special purpose. 
 
-   ## **Usage**
+   ### **Usage**
    You can click through the buttons and see the difference in the images. For example, sobel X and sobel Y are used to calculate the magnitude of the image for edge detection. 
 
 
