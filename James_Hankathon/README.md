@@ -21,13 +21,13 @@
    input the keywords &#8594;  downloads the first image queried in "https://images.nasa.gov/" to the assets folder  &#8594;  pass the image and a given style image to the StylizeImg.py file to train &#8594; result is a new image of the two images, content and style, combined and visualized  &#8594;  utilizes PyQt5 to implement an interactive GUI for more accessible and observable results
 
 
-  ##NasaAPICrawler.py
+ ## NasaAPICrawler.py
 
    ### **Purpose**
    the backbone of our search engine. uses API provided by NASA to crawl imagery from NASA's vast dataset.  
 
 
-  ###StylizeImg.py
+ ## StylizeImg.py
 
    ### **Purpose**
    StylizeImg.py is an image combining algorithm that uses the VGG pretrained AI model to implement the merging of 2 images. the resulting image is a blend of the content of one of the images and the style of the other, similar to a customized style filter based on the image. 
@@ -38,7 +38,7 @@
     Initially, we take any random image as target(or taking the content image would be useful) and compute the **Content loss** and **Style loss** and decreasing these losses we would reach the perfect target image that has the style of one image and content of other image.
 
 
-  ## ImageProcessingExtensions.py
+ ## ImageProcessingExtensions.py
 
    ### **Purpose**
    Demonstates image processing techniques, tools, and results with OpenCV and brought to life as a GUI by PyQt5. Each button on the GUI has a unique and special purpose. 
