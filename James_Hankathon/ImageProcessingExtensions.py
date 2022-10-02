@@ -178,7 +178,7 @@ def Median_Filter():
 # 3-1
 def Gaussian_Blur_3():
     global house, house_g, house_gb
-    cv.imwrite(spaceImg, house_gb)
+    cv.imwrite("assets/gb3.jpg", house_gb)
     house_gb = cv.imread(spaceImg)
     cv.imshow('Original', house)
     cv.imshow('Grayscale', house_g)
@@ -190,7 +190,7 @@ def Gaussian_Blur_3():
 # 3-2
 def Sobel_X():
     global house_g, house_sx
-    cv.imwrite(spaceImg, house_sx)
+    cv.imwrite("assets/sobelx.jpg", house_sx)
     house_sx = cv.imread(spaceImg)
     cv.imshow('Grayscale', house_g)
     cv.imshow('Sobel X', house_sx)
@@ -201,7 +201,7 @@ def Sobel_X():
 # 3-3
 def Sobel_Y():
     global house_g, house_sy
-    cv.imwrite(spaceImg, house_sy)
+    cv.imwrite("assets/sobely.jpg", house_sy)
     house_sy = cv.imread(spaceImg)
     cv.imshow('Grayscale', house_g)
     cv.imshow('Sobel Y', house_sy)
@@ -212,7 +212,7 @@ def Sobel_Y():
 # 3-4
 def Magnitude_xy():
     global house_m
-    cv.imwrite(spaceImg, house_m)
+    cv.imwrite("assets/edgedetection.jpg", house_m)
     house_m = cv.imread(spaceImg)
     cv.imshow('Magnitude', house_m)
     cv.waitKey(0)

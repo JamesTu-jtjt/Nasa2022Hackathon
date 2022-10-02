@@ -21,7 +21,7 @@ class JTHankSolution(QMainWindow):
                   assets_path + "texture1_pic.jpg", assets_path + "texture2_pic.jpg", 
                   assets_path + "texture3_pic.jpg", assets_path + "texture4_pic.jpg"]
         self.window = QWidget()
-        self.window.setWindowTitle("James Hankathon Solution to Nasa Space Apps Challenge 2022")
+        self.window.setWindowTitle("JThankAi Solution")
         self.layout = QVBoxLayout()
         self.horizontal = QHBoxLayout()
         self.search_bar = QLineEdit()
