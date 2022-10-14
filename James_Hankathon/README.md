@@ -1,3 +1,5 @@
+James Hankathon Project: the JThankAi Solution
+Project page: https://2022.spaceappschallenge.org/challenges/2022-challenges/art-worlds/teams/james-hankathon/project
 ## Languages and Frameworks Used 
   * Python: coding language
   * NumPy: library for numerical calculations
