@@ -17,11 +17,16 @@
 
   ## main.py
   ### **Usage**
-     Go to the search bar on top and type **Earth**  &#8594; Hit the **Go** button  &#8594; now you can see the result of your search  &#8594; Press the **Change style** button to see a wide range of stylistic changes to the Earth image. 
+    Go to the search bar on top and type **Earth** ; 
+    Hit the **Go** button; 
+    See the result of your search;
+    Press the **Change style** button to see a wide range of stylistic changes to the Earth image. 
 
   ### **Logic Flow**
-    input the keywords &#8594;  downloads the first image queried in "https://images.nasa.gov/" to the assets folder  &#8594;  pass the image and a given style image to the StylizeImg.py file to train &#8594; result is a new image of the two images, content and style, combined and visualized  &#8594;  utilizes PyQt5 to implement an interactive GUI for more accessible and observable results
-
+    Input keywords: Downloads the first image queried in "https://images.nasa.gov/" to the assets folder;  
+    Pass the image and a given style image to the StylizeImg.py file to train; 
+    Result is a new image of the two images, content and style, combined and visualized;  
+    Utilizes PyQt5 to implement an interactive GUI for more accessible and observable results
 
   ## NasaAPICrawler.py
 
