@@ -19,6 +19,7 @@
   ```
   If you want to check out ImageProcessingExtensions.py you will have to install OpenCV as well. 
 
+## Demo
   After setting up the environment, you can run the `main.py` file to see a quick demo of the project. In the search bar you can type "Earth" and view the different styles in our demo. Afterwards, you can run the `ImageProcessingExtensions.py` file to see a demo of basic image processing of imagery. 
 
 ## Future work: 
