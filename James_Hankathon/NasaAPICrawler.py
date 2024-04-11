@@ -7,6 +7,9 @@ import os
 assets_path = 'assets/'
 
 def searchText(text):
+    if text == "Earth": 
+        return
+
     #input the query
     picquery = text
     pic_path = assets_path + picquery + ".jpg" 
