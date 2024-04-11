@@ -3,7 +3,7 @@ import os
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from PyQt5.QtWebEngineWidgets import *
+# from PyQt5.QtWebEngineWidgets import *
 from NasaAPICrawler import searchText
 from StylizeImg import stylizeImg
 
@@ -51,7 +51,7 @@ class JTHankSolution(QMainWindow):
         if self.text == "":
             return
         searchText(self.text)
-        spaceImg = "assets/" + self.text + ".jpg"
+        spaceImg = "./assets/" + self.text + ".jpg"
         pixmap = QPixmap(spaceImg)
         self.pic_label.setPixmap(pixmap)
         self.resize(pixmap.width(),pixmap.height())
@@ -64,7 +64,7 @@ class JTHankSolution(QMainWindow):
             if self.style_num == 9:
                 self.style_num == 0
             else:
-                self.style_num += 1;
+                self.style_num += 1
         #spaceImg = "assets/" + self.text + ".jpg"
         #spaceImg = stylizeImg(spaceImg, self.styles[self.style_num])
         spaceImg = self.styles[self.style_num]
