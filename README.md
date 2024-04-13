@@ -27,8 +27,3 @@ TODO: I will probably have to modify the project a bit to better fit our project
 
 ### Current Ideas (Tentative)
 (Feel free to modify/add to the project if you have any other ideas!)
-
-Maybe we can:
-- Allow user to upload content image
-- Allow user to search for style image
-- Generate and display an image that conbines the content of the content image and the style of the style image. 
